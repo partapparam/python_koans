@@ -70,7 +70,7 @@ class AboutAsserts(Koan):
         # is just what it displays. The answer is simply str.
         #
         # See for yourself:
-        assert 'navel'.__class == str
+        assert 'navel'.__class__ == str
 
         self.assertEqual(str, "navel".__class__) # It's str, not <type 'str'>
 
